@@ -1,0 +1,11 @@
+SELECT I.Name
+FROM Instructor I
+JOIN Course C
+ON I.InstructorID = C.InstructorID
+GROUP BY I.InstructorID, I.Name
+HAVING SUM(C.Credits) = (SELECT MAX(TotalCredits)
+                            FROM (SELECT SUM(Credits) AS TotalCredits
+                                  FROM Course
+                                  GROUP BY InstructorID
+                                ) AS T
+);
