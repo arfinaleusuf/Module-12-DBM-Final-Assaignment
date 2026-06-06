@@ -1,0 +1,11 @@
+INSERT INTO Enrollment(StudentID, CourseID, EnrollmentDate)
+VALUES (
+    5,
+    (
+        SELECT CourseID
+        FROM Course
+        ORDER BY Credits DESC
+        LIMIT 1
+    ),
+    CURDATE()
+);
