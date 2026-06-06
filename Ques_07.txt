@@ -1,0 +1,5 @@
+Difference Between GROUP BY and ORDER BY
+
+Group By:
+    GROUP BY	ORDER BY
+Rows গুলোকে group করে
