@@ -1,5 +1,19 @@
 Difference Between GROUP BY and ORDER BY
 
 Group By:
-    GROUP BY	ORDER BY
-Rows গুলোকে group করে
+    1. Data group করে
+    2. Aggregate function এর সাথে ব্যবহৃত হয়
+    3. Rows combine করে
+    4. Example:
+        SELECT Department, COUNT(*)
+        FROM Instructor
+        GROUP BY Department;
+
+Order By:
+    1. Data sort করে
+    2. Ascending/Descending সাজায়
+    3. Rows combine করে না
+    4. Example:
+        SELECT *
+        FROM Instructor
+        ORDER BY Salary DESC;
