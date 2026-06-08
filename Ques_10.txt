@@ -1,0 +1,3 @@
+Most challenging topic: The most challenging topic for me in this course was Subquery. At first, it seemed very confusing and difficult to understand. I was mixing it.
+
+How I Overcame It: By practicing many times, I started to understand how subqueries work. Although I have improved, I still feel that I need more practice to become fully confident in using them.I believe, i will be able to use subqueries more effectively.
