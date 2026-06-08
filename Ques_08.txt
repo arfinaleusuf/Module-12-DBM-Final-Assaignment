@@ -1,0 +1,4 @@
+SELECT DISTINCT Salary AS second-highest
+FROM Instructor
+ORDER BY Salary DESC
+LIMIT 1 OFFSET 1;
